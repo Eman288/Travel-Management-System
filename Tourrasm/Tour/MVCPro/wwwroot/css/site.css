@@ -1,0 +1,828 @@
+*
+{
+    font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+select[multiple] option[selected] {
+    background-color: red; /* Change this to your desired color */
+    font-weight: bold; /* Change this to your desired style */
+}
+
+nav {
+    margin-bottom: 0 !important;
+}
+
+.table
+{
+    width: 90% !important;
+}
+
+table
+{
+    text-align: center;
+}
+thead tr
+{
+    color: azure;
+    text-align: center;
+    background-color: #7ab730;
+}
+html {
+    font-size: 14px;
+    background-color: #e7f1df;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    background-color: #e7f1df;
+}
+
+/*footer*/
+
+.footer[b-luoip07iv7] {
+    background-color: #1f2921;
+    color: azure !important;
+    height: 44vh;
+    bottom: -50vh;
+    min-height: 100px;
+    padding: 0 20%;
+}
+/*The design for the signin/up buttons*/
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #e7f1df !important;
+}
+
+.buttons
+{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+}
+
+.buttons div
+{
+    margin: 10px;
+    width: max-content;
+    border: 1px solid transparent;
+    padding: 10px;
+    border-radius: 10px;
+}
+.buttons a
+{
+    text-decoration: none;
+}
+            /*sign up design*/
+.signup 
+{
+    background-color: #7ab730;
+}
+
+.signup a
+{
+    color: azure;
+}
+
+.signup:hover
+{
+    background-color: black;
+}
+            /*sign in design*/
+.signin a{
+    color: #7ab730;
+}
+
+.signin:hover
+{
+    background-color: #7ab730;
+}
+
+.signin:hover a
+{
+    color: azure;
+}
+
+/*profile*/
+
+.proimg img
+{
+    width: 100px;
+}
+
+
+/*header*/
+
+.wholeHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.headerText
+{
+    color: azure;
+    text-align: center;
+    font-weight: bold;
+}
+
+.headerButton
+{
+    border: 1px solid transparent;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #7ab730;
+    cursor: pointer;
+}
+
+.headerButton:hover
+{
+    background-color: black;
+}
+
+.headerButton a
+{
+    text-decoration: none;
+    color: azure;
+}
+
+
+.left img, .right img
+{
+    width: 2vw;
+}
+
+.navList a:hover 
+{
+    color: #7ab730 !important; 
+}
+
+/*dataUnderHeader*/
+
+.dataUnderHeader
+{
+    display: flex;
+    gap: 3vw;
+    padding: 30px;
+    align-items: center;
+}
+
+.dataUnderHeader div
+{
+    width: 50%;
+}
+
+.dataUnderHeaderImg img
+{
+    width: 100%;
+}
+
+.dataUnderHeaderText {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px
+}
+
+.dataUnderHeaderButton
+{
+    padding: 20px;
+    background-color: #7ab730;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    cursor: pointer;
+    width: fit-content !important;
+}
+
+.dataUnderHeaderButton:hover
+{
+    background-color: black;
+}
+
+.dataUnderHeaderButton a
+{
+    text-decoration: none;
+    color: azure;
+}
+
+
+
+/*chaBoxs*/
+
+.chaBoxs
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 150px 0;
+    padding: 20px;
+    gap: 10px;
+}
+
+.chaBoxs img
+{
+    width: 30%;
+}
+
+.chaBoxChild
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.chaBoximg {
+    display: flex;
+    width: 30%;
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    background-color: rgb(122, 183, 48);
+    align-items: center;
+    justify-content: center;
+}
+
+.chaBoxText
+{
+    width: 50%;
+}
+
+/*services*/
+
+.services {
+    display: flex;
+    justify-content: center;
+    margin: 150px 0;
+    padding: 20px;
+    gap: 30px;
+}
+
+.servicesImg img
+{
+    width: 6vw;
+}
+
+.servicesImg {
+    border: 3px solid #7ab730;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    width: 30%;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.servicesChild:hover {
+    box-shadow: 5px 3px 10px #858585;
+}
+
+.servicesChild:hover .servicesImg {
+    background-color: #7ab730;
+}
+
+.servicesChild:hover img {
+    filter: grayscale(100%) brightness(200%);
+}
+
+.servicesChild {
+    display: flex;
+    padding: 30px;
+    gap: 30px;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+.servicesText {
+    width: 75%;
+    text-align: center;
+}
+
+/*Trip show box*/
+
+.showTripsHome
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tripHome{
+    display: flex;
+    flex-direction: row;
+    width: 98vw;
+    flex-wrap: wrap;
+    gap: 30px 3vw;
+    justify-content: center;
+}
+
+.tripHome > div:hover
+{
+    box-shadow: 5px 3px 10px #858585;
+}
+
+.tripHome > div
+{
+    width: 30%;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tripText
+{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    margin: 40px 0;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.tripText p
+{
+    margin: 20px 0;
+}
+
+.buttonTripHome
+{
+    background-color: #7ab730;
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    color: azure;
+    width: 40%;
+    cursor: pointer;
+}
+
+.buttonTripHome:hover
+{
+    background-color: black;
+}
+
+.tripImg {
+    width: 100% !important;
+    padding: 0 !important;
+    height: 200px !important;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+button
+{
+    color: azure;
+}
+option
+{
+    padding: 10px;
+}
+#tours
+{
+    height: fit-content;
+}
+.tripHome div img
+{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+.showTripsHomeButton
+{
+    background-color: #7ab730;
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin: 40px;
+}
+
+.showTripsHomeButton:hover {
+    background-color: black;
+}
+
+.showTripsHomeButton a
+{
+    text-decoration: none;
+    color: azure;
+}
+
+/*media code*/
+@media (max-width: 600px) {
+    .dataUnderHeader {
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .chaBoxs
+    {
+        flex-wrap: wrap;
+    }
+
+    .services
+    {
+        flex-wrap: wrap;
+    }
+
+}
+
+/*select*/
+
+.selectDiv 
+{
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    
+}
+
+.div1, .div2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px 0;
+    cursor: pointer;
+    font-size: 5vw;
+}
+
+.div1 h1, .div2 h1 {
+        font-size: 5vw;
+}
+    .div1
+{
+    background-color: #abd373;
+    color: azure;
+}
+.div1:hover {
+    background-color: #6b8547;
+}
+    .div1:hover .div2 h1{
+        font-size: 3vw;
+        transition: all 0.3s ease;
+    }
+.div2 {
+    background-color: #e2e5db;
+    color: #7da742;
+}
+.div2:hover {
+    background-color: #a3a5a0;
+}
+.div2:hover .div1 h1{
+    font-size: 3vw;
+    transition: all 0.3s ease;
+}
+
+/*profile*/
+
+.proform {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+
+.proLables, .proInputs {
+    display: flex;
+    flex-direction: column;
+}
+
+    .proLables label {
+        margin: 20px 5vw;
+    }
+
+    .proInputs input {
+        margin: 20px;
+        padding: 0;
+        border: 0;
+        border-bottom: 1px solid #7ab730;
+    }
+
+.proUpper {
+    display: flex;
+    height: 100vh;
+    gap: 50px;
+    padding: 4vw;
+    background-color: #7ab730;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonShowTrip {
+    background-color: azure;
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    color: azure;
+    cursor: pointer
+}
+
+    .buttonShowTrip a {
+        text-decoration: none;
+    }
+
+.proContent {
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.proLower {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+    margin: auto;
+}
+
+.proPhoto img {
+    width: 15vw;
+    height: 15vw;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+
+.proButtons {
+    display: flex;
+}
+
+    .proButtons button {
+        background-color: #7ab730;
+        border-color: transparent;
+        border-radius: 10px;
+        padding: 15px;
+        color: azure;
+        margin: 1vw;
+    }
+
+        .proButtons button:hover {
+            background-color: black;
+        }
+
+    .proButtons div {
+        background-color: #7ab730;
+        border-color: transparent;
+        border-radius: 10px;
+        padding: 15px;
+        color: azure;
+        margin: 1vw;
+    }
+
+        .proButtons div a {
+            color: azure;
+        }
+
+    .proButtons a {
+        text-decoration: none;
+        color: azure;
+    }
+
+    .proButtons div:hover {
+        background-color: black;
+    }
+
+/*reg*/
+
+
+
+/*.reg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.regfirstcol, .regsecondcol {
+    display: flex;
+    flex-direction: row;
+}
+
+.labels, .inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+
+    .labels label {
+        width: max-content;
+    }
+
+.labels {
+    margin: 0 10px;
+}
+
+    .labels label, .inputs input {
+        margin: 10px 0;
+        color: black;
+        font-weight: bold;
+    }
+
+.inputs input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid black;
+}
+
+.regimg img {
+    width: 15vw;
+}
+
+.regbelow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 45px;
+}
+
+.regtext {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    color: black;
+    margin: 20px 2vw;
+}
+
+    .regtext a {
+        text-decoration: none;
+        color: #b9e584;
+    }
+
+        .regtext a:hover {
+            color: white;
+        }
+
+.regform, .logform {
+    backdrop-filter: blur(4px);*/
+    /* width: 100%; */
+    /*width: fit-content;
+    margin: 40px 0 0 0;
+    border: 1px solid transparent;
+    padding: 20px 25vw;
+    border-radius: 40px;
+    box-shadow: gray 3px 3px 30px;
+}
+
+.logform {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}*/
+
+.regbelow button {
+    background-color: #7ab730;
+    border: 1px solid transparent;
+}
+
+    .regbelow button:hover {
+        background-color: black;
+    }
+.logcontent1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.logimg1 {
+    width: 50%;
+    height: 89.7vh;
+}
+
+.regform, .logform
+{
+    display: flex;
+    width: 100%;
+}
+
+.reg {
+    display: flex;
+    
+    gap: 3vw;
+}
+
+.regbelow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 45px;
+    gap: 7vw;
+}
+
+.regtext {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    color: black;
+    margin: 20px 2vw;
+}
+
+    .regtext a {
+        text-decoration: none;
+        color: #b9e584;
+    }
+
+        .regtext a:hover {
+            color: #506339;
+        }
+
+.log2
+{
+    justify-content: space-evenly;
+}
+.log1
+{
+    justify-content: space-between;
+}
+.reg label, .reg input {
+    margin: 16px 0;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+.reg input {
+    margin: 16px 0;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid black;
+}
+
+select {
+    margin: 15px 0;
+}
+
+.log1, .log2
+{
+    display: flex;
+    flex-direction:column;
+}
+
+input 
+{
+    width: 100%;
+}
+
+@media(max-width: 850px)
+{
+    .regform, .logform
+    {
+        flex-direction:column-reverse;
+    }
+    .logimg1
+    {
+        width: 100%;
+    }
+    .logcontent1
+    {
+        width: 100%;
+        align-items: center;
+    }
+}

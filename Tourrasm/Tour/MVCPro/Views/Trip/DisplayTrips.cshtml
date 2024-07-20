@@ -1,0 +1,99 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@{
+    MVCPro.Shared.global.i = 0;
+    var viewName = ViewContext.RouteData.Values["action"].ToString();
+    if (viewName == "DisplayTrips")
+    {
+        <head>
+            <style>
+                .container {
+                    margin: 0;
+                    padding: 0;
+                }
+
+                .mb-3 {
+                    margin-bottom: 0rem !important;
+                }
+
+                nav {
+                    margin-bottom: 0 !important;
+                }
+
+                main {
+                    padding: 0 !important;
+                }
+
+                .pb-3 {
+                    padding-bottom: 0rem !important;
+                }
+            </style>
+        </head>
+    }
+}
+
+@{
+    ViewData["Title"] = "Our Trips";
+
+    List<Trip>? trips = (List<Trip>)ViewData["tripsall"];
+}
+
+<div class="showTrips">
+    
+    <div class="tripBoxall">
+        <h2 style="margin: 30px;">OUR BEST TRIPS!</h2>
+        <div class="tripHomeall">
+        </div>
+       @*  <div class="showTripsHomeButton">
+            <a text-dark" asp-area="" asp-controller="Trip" asp-action="showTrips">Show more...</a>
+        </div> *@
+    </div>
+</div>
+
+<script>
+    function createTripHome(tripId, tripName, price, picture) {
+        // Create the main trip div
+        const newTrip = document.createElement('div');
+        newTrip.id = tripId; // Ensure unique ID by prefixing with 'trip-'
+
+        // Create the image div
+        const tripImg = document.createElement('div');
+        tripImg.className = 'tripImg';
+        //pic = "~/images/Trip/" + picture
+        const basePath = '@Url.Content("~/images/Trip/")';
+
+        const pic = basePath + `${picture}`
+
+        tripImg.style.backgroundImage = `url('${pic}')`;
+        tripImg.style.width = "100px";
+        newTrip.appendChild(tripImg);
+
+
+        // Create the text div
+        const tripText = document.createElement('div');
+        tripText.className = 'tripText'; // Changed to class instead of ID
+        tripText.innerHTML = `
+                    <div>
+                        <h3>${tripName}</h3>
+                        <p>Price: ${price}</p>
+                    </div>
+                                <button class="buttonTripHome" onclick="location.href='https://localhost:44372/Trip/ViewTrip/${tripId}'">
+                                View
+                                </button>
+                `;
+        
+        newTrip.appendChild(tripText);
+
+        // Append the newTrip div to the container
+        document.querySelector('.tripHomeall').appendChild(newTrip);
+    }
+</script>
+
+@foreach (var trip in trips) // Ensure Model.Trips is correctly passed to the view
+{
+    <script>
+        createTripHome(@trip.TripId, '@trip.Name', @trip.Price, '@trip.ImageUser');
+    </script>
+}

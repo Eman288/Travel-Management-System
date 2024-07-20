@@ -1,0 +1,76 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+   // bool u = (bool)ViewData["wrongUser"];
+    if (MVCPro.Shared.global.i != 0 && MVCPro.Shared.global.checkIndex == false)
+    {
+        <script>
+            window.alert("Only Users can Book, Please sign in with your user account")
+        </script>
+    }
+    int tid = (int)ViewData["TripId"];
+    List<TouristAttraction> tourists = ViewData["tourists"] as List<TouristAttraction>;
+    if (tourists == null || tourists.Count == 0)
+    {
+        <style>
+        footer
+        {
+            bottom: 0;
+        }
+        </style>
+    }
+}
+
+<section style= "text-align: center;">
+    <h1 style="margin: 100px; color: #7ab730;">
+        Enjoy Your Time With Our Tourists Attractions!
+    </h1>
+    <div class="tourists"></div>
+    <div class="buttonTripHome" style="margin: auto; width: 10vw;">
+
+        <a class="text-dark" onclick="location.href='https://localhost:44372/UserTrip/Create'">Book</a>
+    </div>
+</section>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        function createTripHome(tourId, tourName, city, picture, description) {
+            // Create the main tour div
+            const newTour = document.createElement('div');
+            newTour.id = tourId; // Ensure unique ID by prefixing with 'trip-'
+
+            // Create the image div
+            const tourImg = document.createElement('div');
+            tourImg.className = 'tourImg';
+            const basePath = '@Url.Content("~/images/TouristAttraction/")';
+            const pic = basePath + picture;
+            tourImg.style.backgroundImage = `url('${pic}')`;
+            tourImg.style.width = "100px";
+            newTour.appendChild(tourImg);
+
+            // Create the text div
+            const tourText = document.createElement('div');
+            tourText.className = 'tourText';
+            tourText.innerHTML = `
+                    <div>
+                        <h3>${tourName}</h3>
+                        <h5>${city}</h5>
+                        <p style="padding: 20px">Description: ${description}</p>
+                    </div>
+                `;
+
+            newTour.appendChild(tourText);
+
+            // Append the newTour div to the container
+            document.querySelector('.tourists').appendChild(newTour);
+        }
+
+    @foreach (var trip in tourists)
+    {
+        <text>
+                createTripHome("@trip.Id", "@trip.Name", "@trip.City", "@trip.Picture", "@trip.Description");
+        </text>
+    }
+        });
+</script>

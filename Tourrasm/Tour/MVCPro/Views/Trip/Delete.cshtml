@@ -1,0 +1,63 @@
+﻿@model MVCPro.Models.Trip
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Delete</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <head>
+        <style>
+            main {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 80vh;
+            }
+            footer
+            {
+                display: none !important;
+            }
+            h2 {
+                color: #7ab730;
+            }
+
+            .btn-danger
+            {
+                background-color: #7ab730 !important;
+                color: azure;
+            }
+
+            lable {
+                color: azure;
+            }
+
+            input {
+                margin-bottom: 10px;
+            }
+
+            button {
+                
+                border: 1px solid transparent !important;
+            }
+        </style>
+    </head>
+</head>
+<body>
+    <div class="container">
+        <h4>Delete Trip</h4>
+        <hr />
+        <div>
+            <h4>Are you sure you want to delete this trip?</h4>
+            <div>
+                <h4>Name: @Model.Name</h4>
+                <form asp-action="Delete" method="post" class="att">
+                    <input type="hidden" asp-for="TripId" />
+                    <button type="submit" class="btn btn-danger">Delete</button>
+                    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

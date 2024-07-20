@@ -1,0 +1,749 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MVCPro.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MVCPro.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\css\\staff.css",
+      "PackagePath": "staticwebassets\\css\\staff.css"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\css\\trip.css",
+      "PackagePath": "staticwebassets\\css\\trip.css"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Staff\\00511540-3a7b-471e-9a68-f93e7f9b661f.jpeg",
+      "PackagePath": "staticwebassets\\images\\Staff\\00511540-3a7b-471e-9a68-f93e7f9b661f.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Staff\\12501334-2a5d-41d4-bc83-bb47c3986009.png",
+      "PackagePath": "staticwebassets\\images\\Staff\\12501334-2a5d-41d4-bc83-bb47c3986009.png"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Staff\\1cfa7316-c010-42bd-aeff-22fe90146407.jpeg",
+      "PackagePath": "staticwebassets\\images\\Staff\\1cfa7316-c010-42bd-aeff-22fe90146407.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Staff\\2107fe88-b15f-403f-933a-578e00331d40.jpeg",
+      "PackagePath": "staticwebassets\\images\\Staff\\2107fe88-b15f-403f-933a-578e00331d40.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Staff\\2eb15557-e701-48c5-9075-0870f7b327f2.png",
+      "PackagePath": "staticwebassets\\images\\Staff\\2eb15557-e701-48c5-9075-0870f7b327f2.png"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Staff\\3a015635-c9fb-48b7-89ff-ff6df5973c46.jpg",
+      "PackagePath": "staticwebassets\\images\\Staff\\3a015635-c9fb-48b7-89ff-ff6df5973c46.jpg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Staff\\3b3457d9-4507-44b6-8824-710fd124b0c3.jpeg",
+      "PackagePath": "staticwebassets\\images\\Staff\\3b3457d9-4507-44b6-8824-710fd124b0c3.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Staff\\40d016f0-e709-4221-9bd1-6a9cdafb0d23.png",
+      "PackagePath": "staticwebassets\\images\\Staff\\40d016f0-e709-4221-9bd1-6a9cdafb0d23.png"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Staff\\50617c74-fbf8-483d-bcac-2e931080ea13.jpeg",
+      "PackagePath": "staticwebassets\\images\\Staff\\50617c74-fbf8-483d-bcac-2e931080ea13.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Staff\\6081b84b-0d27-4d95-8dbc-815ae10b4b1f.jpeg",
+      "PackagePath": "staticwebassets\\images\\Staff\\6081b84b-0d27-4d95-8dbc-815ae10b4b1f.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Staff\\8267ed58-7eaf-417e-af0f-73f2556378c8.png",
+      "PackagePath": "staticwebassets\\images\\Staff\\8267ed58-7eaf-417e-af0f-73f2556378c8.png"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Staff\\9033dad3-d0f9-4985-9cf6-07788bac73d2.jpg",
+      "PackagePath": "staticwebassets\\images\\Staff\\9033dad3-d0f9-4985-9cf6-07788bac73d2.jpg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Staff\\ce43a213-62ed-4ed9-87e6-16d735331513.jpeg",
+      "PackagePath": "staticwebassets\\images\\Staff\\ce43a213-62ed-4ed9-87e6-16d735331513.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Staff\\fd1a98fd-5908-4939-b25f-c36ed31fb1d7.jpg",
+      "PackagePath": "staticwebassets\\images\\Staff\\fd1a98fd-5908-4939-b25f-c36ed31fb1d7.jpg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\TourGuide\\02ae19c8-e757-4884-9cde-69e8510d30f5.jpeg",
+      "PackagePath": "staticwebassets\\images\\TourGuide\\02ae19c8-e757-4884-9cde-69e8510d30f5.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\TourGuide\\55abc35f-b349-4396-9f95-ed6448475ff2.jpeg",
+      "PackagePath": "staticwebassets\\images\\TourGuide\\55abc35f-b349-4396-9f95-ed6448475ff2.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\TourGuide\\61d9b001-a2db-4b38-97cd-45d375ee478b.jpeg",
+      "PackagePath": "staticwebassets\\images\\TourGuide\\61d9b001-a2db-4b38-97cd-45d375ee478b.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\TouristAttraction\\02024d02-f111-457e-a454-ab5239531e5f.jpg",
+      "PackagePath": "staticwebassets\\images\\TouristAttraction\\02024d02-f111-457e-a454-ab5239531e5f.jpg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\TouristAttraction\\05173ede-503f-48b3-b887-4f1525de7c36.jpeg",
+      "PackagePath": "staticwebassets\\images\\TouristAttraction\\05173ede-503f-48b3-b887-4f1525de7c36.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\TouristAttraction\\0de06ca3-aff2-45d8-ba9e-d0306ee993b7.jpeg",
+      "PackagePath": "staticwebassets\\images\\TouristAttraction\\0de06ca3-aff2-45d8-ba9e-d0306ee993b7.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\TouristAttraction\\17c2ff48-a5fc-4796-a095-6af8ace0f481.jpeg",
+      "PackagePath": "staticwebassets\\images\\TouristAttraction\\17c2ff48-a5fc-4796-a095-6af8ace0f481.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\TouristAttraction\\240fb466-5586-4975-b3fc-eee2eb69d515.jpeg",
+      "PackagePath": "staticwebassets\\images\\TouristAttraction\\240fb466-5586-4975-b3fc-eee2eb69d515.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\TouristAttraction\\302926cd-3459-4b74-94cf-49aa10beddf3.jpeg",
+      "PackagePath": "staticwebassets\\images\\TouristAttraction\\302926cd-3459-4b74-94cf-49aa10beddf3.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\TouristAttraction\\32c7c744-03a6-4580-bddf-13ee09f8948c.jpeg",
+      "PackagePath": "staticwebassets\\images\\TouristAttraction\\32c7c744-03a6-4580-bddf-13ee09f8948c.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\TouristAttraction\\45292060-e7c6-41c9-86b5-2b5e1b62827d.png",
+      "PackagePath": "staticwebassets\\images\\TouristAttraction\\45292060-e7c6-41c9-86b5-2b5e1b62827d.png"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\TouristAttraction\\4e00d918-1faf-41a2-aec0-130e8e51a39b.jpeg",
+      "PackagePath": "staticwebassets\\images\\TouristAttraction\\4e00d918-1faf-41a2-aec0-130e8e51a39b.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\TouristAttraction\\70a1b499-0dd2-4cd5-bef5-0b9fd76710a9.jpg",
+      "PackagePath": "staticwebassets\\images\\TouristAttraction\\70a1b499-0dd2-4cd5-bef5-0b9fd76710a9.jpg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\TouristAttraction\\733cdb93-f8c2-4a41-90fa-28bb298f41d2.png",
+      "PackagePath": "staticwebassets\\images\\TouristAttraction\\733cdb93-f8c2-4a41-90fa-28bb298f41d2.png"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\TouristAttraction\\79874dcc-9079-4008-b79f-3c0f8440fd8f.jpeg",
+      "PackagePath": "staticwebassets\\images\\TouristAttraction\\79874dcc-9079-4008-b79f-3c0f8440fd8f.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\TouristAttraction\\8e9c0666-c4d3-4f16-aa17-0d4169751c1f.jpg",
+      "PackagePath": "staticwebassets\\images\\TouristAttraction\\8e9c0666-c4d3-4f16-aa17-0d4169751c1f.jpg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\TouristAttraction\\920aa639-fc05-4207-87ce-2cb1b9924145.png",
+      "PackagePath": "staticwebassets\\images\\TouristAttraction\\920aa639-fc05-4207-87ce-2cb1b9924145.png"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\TouristAttraction\\ac67da61-d0df-42e1-8c92-1526aaadc5a7.png",
+      "PackagePath": "staticwebassets\\images\\TouristAttraction\\ac67da61-d0df-42e1-8c92-1526aaadc5a7.png"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\TouristAttraction\\b82f5934-ef98-4c34-a482-110b1e197fed.jpeg",
+      "PackagePath": "staticwebassets\\images\\TouristAttraction\\b82f5934-ef98-4c34-a482-110b1e197fed.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\TouristAttraction\\c59534fa-809e-4b20-8492-f3dc19ceeebd.jpeg",
+      "PackagePath": "staticwebassets\\images\\TouristAttraction\\c59534fa-809e-4b20-8492-f3dc19ceeebd.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\TouristAttraction\\c8b8e190-1a1c-4f1c-b662-10fb234e177a.jpg",
+      "PackagePath": "staticwebassets\\images\\TouristAttraction\\c8b8e190-1a1c-4f1c-b662-10fb234e177a.jpg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\TouristAttraction\\cf391541-1e5e-4210-91a1-cb6cf0902710.jpeg",
+      "PackagePath": "staticwebassets\\images\\TouristAttraction\\cf391541-1e5e-4210-91a1-cb6cf0902710.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\TouristAttraction\\d4a69796-9d86-4185-87f6-d6d25447fcfe.jpeg",
+      "PackagePath": "staticwebassets\\images\\TouristAttraction\\d4a69796-9d86-4185-87f6-d6d25447fcfe.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\TouristAttraction\\e20754fe-b2b6-4f05-8a44-847cc382d853.jpg",
+      "PackagePath": "staticwebassets\\images\\TouristAttraction\\e20754fe-b2b6-4f05-8a44-847cc382d853.jpg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\TouristAttraction\\e33a7008-9bf0-4d12-87b5-48ad00ece993.jpg",
+      "PackagePath": "staticwebassets\\images\\TouristAttraction\\e33a7008-9bf0-4d12-87b5-48ad00ece993.jpg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\TouristAttraction\\e94ed5a0-b02c-40a6-8c84-8516a7e614e4.jpeg",
+      "PackagePath": "staticwebassets\\images\\TouristAttraction\\e94ed5a0-b02c-40a6-8c84-8516a7e614e4.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\TouristAttraction\\fa845207-9cdc-485b-ab08-ae00f5b80d4f.png",
+      "PackagePath": "staticwebassets\\images\\TouristAttraction\\fa845207-9cdc-485b-ab08-ae00f5b80d4f.png"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\TouristAttraction\\fd3cf784-1410-43a7-8f91-94879d2bb78e.jpeg",
+      "PackagePath": "staticwebassets\\images\\TouristAttraction\\fd3cf784-1410-43a7-8f91-94879d2bb78e.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Trip\\15b30b93-5f81-4d02-8431-3c05e86cfb26.jpeg",
+      "PackagePath": "staticwebassets\\images\\Trip\\15b30b93-5f81-4d02-8431-3c05e86cfb26.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Trip\\1feec0ec-cb7e-4b96-ba02-ee23e87227db.jpeg",
+      "PackagePath": "staticwebassets\\images\\Trip\\1feec0ec-cb7e-4b96-ba02-ee23e87227db.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Trip\\28117a56-e8d2-48c1-b32c-f6ce2de8ee37.jpeg",
+      "PackagePath": "staticwebassets\\images\\Trip\\28117a56-e8d2-48c1-b32c-f6ce2de8ee37.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Trip\\327d1091-9153-4107-9a35-d25fb1dab30f.jpeg",
+      "PackagePath": "staticwebassets\\images\\Trip\\327d1091-9153-4107-9a35-d25fb1dab30f.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Trip\\34e31ddc-51bb-4473-bea3-196c6b91ca02.jpg",
+      "PackagePath": "staticwebassets\\images\\Trip\\34e31ddc-51bb-4473-bea3-196c6b91ca02.jpg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Trip\\352b7d6e-97f6-4af6-a838-c0d8c14a7b51.jpg",
+      "PackagePath": "staticwebassets\\images\\Trip\\352b7d6e-97f6-4af6-a838-c0d8c14a7b51.jpg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Trip\\48f51569-fd24-4d33-af5a-4a909bf5dc5c.png",
+      "PackagePath": "staticwebassets\\images\\Trip\\48f51569-fd24-4d33-af5a-4a909bf5dc5c.png"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Trip\\4d169db7-70e1-4c52-98b9-0b0a62437040.jpeg",
+      "PackagePath": "staticwebassets\\images\\Trip\\4d169db7-70e1-4c52-98b9-0b0a62437040.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Trip\\5337ca6f-e713-4d11-9c49-c13621f77e8a.jpeg",
+      "PackagePath": "staticwebassets\\images\\Trip\\5337ca6f-e713-4d11-9c49-c13621f77e8a.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Trip\\541a586d-f196-4984-9320-8429f7407dc8.jpeg",
+      "PackagePath": "staticwebassets\\images\\Trip\\541a586d-f196-4984-9320-8429f7407dc8.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Trip\\5790b8db-f8f8-49f7-b9f0-8b30120bc4b0.png",
+      "PackagePath": "staticwebassets\\images\\Trip\\5790b8db-f8f8-49f7-b9f0-8b30120bc4b0.png"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Trip\\657f40ab-4055-473f-87db-041cdda86415.jpg",
+      "PackagePath": "staticwebassets\\images\\Trip\\657f40ab-4055-473f-87db-041cdda86415.jpg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Trip\\6836a9f7-c20c-4a32-843e-af3581720434.jpeg",
+      "PackagePath": "staticwebassets\\images\\Trip\\6836a9f7-c20c-4a32-843e-af3581720434.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Trip\\75dc0719-10f3-4c4d-8089-cf33923705f2.jpeg",
+      "PackagePath": "staticwebassets\\images\\Trip\\75dc0719-10f3-4c4d-8089-cf33923705f2.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Trip\\79ecb4c8-708e-40b8-ae09-58bfdf1ddaae.png",
+      "PackagePath": "staticwebassets\\images\\Trip\\79ecb4c8-708e-40b8-ae09-58bfdf1ddaae.png"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Trip\\800330d1-03ea-4764-b764-ec54ed3d9995.jpeg",
+      "PackagePath": "staticwebassets\\images\\Trip\\800330d1-03ea-4764-b764-ec54ed3d9995.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Trip\\84d44506-ed28-4df0-a545-e8feeab80213.jpeg",
+      "PackagePath": "staticwebassets\\images\\Trip\\84d44506-ed28-4df0-a545-e8feeab80213.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Trip\\8d2ae2f1-fe17-4387-8186-ddb95733fd6e.jpeg",
+      "PackagePath": "staticwebassets\\images\\Trip\\8d2ae2f1-fe17-4387-8186-ddb95733fd6e.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Trip\\aa80b1c4-f72b-49ba-92ff-cbd9dd5c7f08.jpeg",
+      "PackagePath": "staticwebassets\\images\\Trip\\aa80b1c4-f72b-49ba-92ff-cbd9dd5c7f08.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Trip\\b56c66aa-1d89-4788-8600-1e367306eb26.png",
+      "PackagePath": "staticwebassets\\images\\Trip\\b56c66aa-1d89-4788-8600-1e367306eb26.png"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Trip\\c3bbe860-8700-463b-a512-f81b9cdee61e.jpg",
+      "PackagePath": "staticwebassets\\images\\Trip\\c3bbe860-8700-463b-a512-f81b9cdee61e.jpg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Trip\\cc161901-b72a-4914-8483-3ac943092774.jpeg",
+      "PackagePath": "staticwebassets\\images\\Trip\\cc161901-b72a-4914-8483-3ac943092774.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\Trip\\fbc53826-40bc-4970-979c-ad0e3dc9c0e6.jpeg",
+      "PackagePath": "staticwebassets\\images\\Trip\\fbc53826-40bc-4970-979c-ad0e3dc9c0e6.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\User\\12026ea5-f64f-4274-a580-0d01a0fbf800.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\12026ea5-f64f-4274-a580-0d01a0fbf800.jpg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\User\\2152acd5-449a-4f1f-a255-2056cdef33e6.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\2152acd5-449a-4f1f-a255-2056cdef33e6.jpg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\User\\34f62956-a4d1-47a8-8b5e-ef049edfa651.png",
+      "PackagePath": "staticwebassets\\images\\User\\34f62956-a4d1-47a8-8b5e-ef049edfa651.png"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\User\\3e61744e-ab75-4d21-b144-b300e6b79146.jpeg",
+      "PackagePath": "staticwebassets\\images\\User\\3e61744e-ab75-4d21-b144-b300e6b79146.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\User\\3e7bd53b-4176-4508-bebc-eb11b6f58d7d.png",
+      "PackagePath": "staticwebassets\\images\\User\\3e7bd53b-4176-4508-bebc-eb11b6f58d7d.png"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\User\\4612c3bb-36d2-486f-8d1b-d21a1c7a3b3a.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\4612c3bb-36d2-486f-8d1b-d21a1c7a3b3a.jpg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\User\\5071dbbf-da1e-4dce-aef1-6e5c7f87627a.jpeg",
+      "PackagePath": "staticwebassets\\images\\User\\5071dbbf-da1e-4dce-aef1-6e5c7f87627a.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\User\\5b6e75e8-d080-42be-b11f-515cb212263d.jpeg",
+      "PackagePath": "staticwebassets\\images\\User\\5b6e75e8-d080-42be-b11f-515cb212263d.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\User\\5dc29e8d-3f85-4eb6-9a9b-95c9c46c6150.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\5dc29e8d-3f85-4eb6-9a9b-95c9c46c6150.jpg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\User\\7154b2ac-a289-4dcd-a5d4-bd1bd6ef5312.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\7154b2ac-a289-4dcd-a5d4-bd1bd6ef5312.jpg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\User\\777fe2a2-6531-41d0-815a-214248bf179a.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\777fe2a2-6531-41d0-815a-214248bf179a.jpg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\User\\79f7f32d-6465-4380-ad15-72719f219b67.jpeg",
+      "PackagePath": "staticwebassets\\images\\User\\79f7f32d-6465-4380-ad15-72719f219b67.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\User\\7a3585ca-bead-4e65-af0c-ce982ad2ed00.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\7a3585ca-bead-4e65-af0c-ce982ad2ed00.jpg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\User\\7c4f7c3f-1de1-41cf-99f5-994045627c38.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\7c4f7c3f-1de1-41cf-99f5-994045627c38.jpg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\User\\8946d6f5-b6bc-4079-9f60-0a28d396529a.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\8946d6f5-b6bc-4079-9f60-0a28d396529a.jpg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\User\\96c09382-2f13-4d03-a1c2-1bb2a6bd760a.png",
+      "PackagePath": "staticwebassets\\images\\User\\96c09382-2f13-4d03-a1c2-1bb2a6bd760a.png"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\User\\9e2f314a-1fe2-4b3a-bb21-b31b15a1acf3.jpeg",
+      "PackagePath": "staticwebassets\\images\\User\\9e2f314a-1fe2-4b3a-bb21-b31b15a1acf3.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\User\\a7724dc9-d738-4079-b09c-0cf28d4e50e8.png",
+      "PackagePath": "staticwebassets\\images\\User\\a7724dc9-d738-4079-b09c-0cf28d4e50e8.png"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\User\\b74011f9-3d29-4d60-ad2e-0c6b65317a0e.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\b74011f9-3d29-4d60-ad2e-0c6b65317a0e.jpg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\User\\bcedf9a5-6fe2-48cd-9c18-ae7576365560.tif",
+      "PackagePath": "staticwebassets\\images\\User\\bcedf9a5-6fe2-48cd-9c18-ae7576365560.tif"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\User\\c1481ca2-f771-432a-94b2-26f15602546d.jfif",
+      "PackagePath": "staticwebassets\\images\\User\\c1481ca2-f771-432a-94b2-26f15602546d.jfif"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\User\\c32b5978-eac3-4a2e-9133-aef6c0fbed22.jpeg",
+      "PackagePath": "staticwebassets\\images\\User\\c32b5978-eac3-4a2e-9133-aef6c0fbed22.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\User\\c74207a1-caf4-4247-b761-373b749323e7.tif",
+      "PackagePath": "staticwebassets\\images\\User\\c74207a1-caf4-4247-b761-373b749323e7.tif"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\User\\d1aaa593-3953-47fe-8ffb-8567f50b48a5.png",
+      "PackagePath": "staticwebassets\\images\\User\\d1aaa593-3953-47fe-8ffb-8567f50b48a5.png"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\User\\dcfeda67-dfb9-4193-b267-ee4c82b01720.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\dcfeda67-dfb9-4193-b267-ee4c82b01720.jpg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\User\\e044b85f-d410-4a82-a80a-3b69eb1b9825.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\e044b85f-d410-4a82-a80a-3b69eb1b9825.jpg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\User\\ed5782c1-f9aa-47c5-bd25-0e83b85f04c5.pdf",
+      "PackagePath": "staticwebassets\\images\\User\\ed5782c1-f9aa-47c5-bd25-0e83b85f04c5.pdf"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\User\\ee9eab8a-9c61-4e25-b7fd-b45854b1fa32.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\ee9eab8a-9c61-4e25-b7fd-b45854b1fa32.jpg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\User\\f646fe76-09b7-4784-820d-223c7b241a79.png",
+      "PackagePath": "staticwebassets\\images\\User\\f646fe76-09b7-4784-820d-223c7b241a79.png"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\User\\f7d45a2e-2495-48e0-ba24-a1ec55096230.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\f7d45a2e-2495-48e0-ba24-a1ec55096230.jpg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\images\\User\\f96095ed-8275-4f83-82ca-e6d3f5188d06.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\f96095ed-8275-4f83-82ca-e6d3f5188d06.jpg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\imags\\7f679b36-a7d5-4099-9405-d85d965646e1.jpeg",
+      "PackagePath": "staticwebassets\\imags\\7f679b36-a7d5-4099-9405-d85d965646e1.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\imags\\circle.png",
+      "PackagePath": "staticwebassets\\imags\\circle.png"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\imags\\dataUnderHeaderPic.jpg",
+      "PackagePath": "staticwebassets\\imags\\dataUnderHeaderPic.jpg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\imags\\distance.png",
+      "PackagePath": "staticwebassets\\imags\\distance.png"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\imags\\header1.jpeg",
+      "PackagePath": "staticwebassets\\imags\\header1.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\imags\\header2.jpeg",
+      "PackagePath": "staticwebassets\\imags\\header2.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\imags\\header3.jpeg",
+      "PackagePath": "staticwebassets\\imags\\header3.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\imags\\hotel.png",
+      "PackagePath": "staticwebassets\\imags\\hotel.png"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\imags\\left.png",
+      "PackagePath": "staticwebassets\\imags\\left.png"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\imags\\money.png",
+      "PackagePath": "staticwebassets\\imags\\money.png"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\imags\\profile.png",
+      "PackagePath": "staticwebassets\\imags\\profile.png"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\imags\\right.png",
+      "PackagePath": "staticwebassets\\imags\\right.png"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\imags\\staffCreate.png",
+      "PackagePath": "staticwebassets\\imags\\staffCreate.png"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\imags\\staffLogin.png",
+      "PackagePath": "staticwebassets\\imags\\staffLogin.png"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\imags\\technical-support.png",
+      "PackagePath": "staticwebassets\\imags\\technical-support.png"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\imags\\ticket.png",
+      "PackagePath": "staticwebassets\\imags\\ticket.png"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\imags\\tourCreate.jpeg",
+      "PackagePath": "staticwebassets\\imags\\tourCreate.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\imags\\tripCreate.jpeg",
+      "PackagePath": "staticwebassets\\imags\\tripCreate.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\imags\\userlogin.png",
+      "PackagePath": "staticwebassets\\imags\\userlogin.png"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\imags\\userregister.png",
+      "PackagePath": "staticwebassets\\imags\\userregister.png"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\imags\\waterbackground.jpg",
+      "PackagePath": "staticwebassets\\imags\\waterbackground.jpg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\imags\\world.png",
+      "PackagePath": "staticwebassets\\imags\\world.png"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\imags\\♡.jpeg",
+      "PackagePath": "staticwebassets\\imags\\♡.jpeg"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MVCPro.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.MVCPro.props",
+      "PackagePath": "build\\MVCPro.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.MVCPro.props",
+      "PackagePath": "buildMultiTargeting\\MVCPro.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.MVCPro.props",
+      "PackagePath": "buildTransitive\\MVCPro.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,266 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F99A39C4-12B3-49AA-9751-D183CEC0553E}|MVCPro\\MVCPro.csproj|e:\\full stack route!\\projects\\tourrasm\\tourrasm\\tour\\mvcpro\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F99A39C4-12B3-49AA-9751-D183CEC0553E}|MVCPro\\MVCPro.csproj|solutionrelative:mvcpro\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F99A39C4-12B3-49AA-9751-D183CEC0553E}|MVCPro\\MVCPro.csproj|e:\\full stack route!\\projects\\tourrasm\\tourrasm\\tour\\mvcpro\\views\\trip\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F99A39C4-12B3-49AA-9751-D183CEC0553E}|MVCPro\\MVCPro.csproj|solutionrelative:mvcpro\\views\\trip\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F99A39C4-12B3-49AA-9751-D183CEC0553E}|MVCPro\\MVCPro.csproj|e:\\full stack route!\\projects\\tourrasm\\tourrasm\\tour\\mvcpro\\views\\trip\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F99A39C4-12B3-49AA-9751-D183CEC0553E}|MVCPro\\MVCPro.csproj|solutionrelative:mvcpro\\views\\trip\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F99A39C4-12B3-49AA-9751-D183CEC0553E}|MVCPro\\MVCPro.csproj|e:\\full stack route!\\projects\\tourrasm\\tourrasm\\tour\\mvcpro\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F99A39C4-12B3-49AA-9751-D183CEC0553E}|MVCPro\\MVCPro.csproj|solutionrelative:mvcpro\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F99A39C4-12B3-49AA-9751-D183CEC0553E}|MVCPro\\MVCPro.csproj|e:\\full stack route!\\projects\\tourrasm\\tourrasm\\tour\\mvcpro\\views\\trip\\viewtrip.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F99A39C4-12B3-49AA-9751-D183CEC0553E}|MVCPro\\MVCPro.csproj|solutionrelative:mvcpro\\views\\trip\\viewtrip.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F99A39C4-12B3-49AA-9751-D183CEC0553E}|MVCPro\\MVCPro.csproj|e:\\full stack route!\\projects\\tourrasm\\tourrasm\\tour\\mvcpro\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F99A39C4-12B3-49AA-9751-D183CEC0553E}|MVCPro\\MVCPro.csproj|solutionrelative:mvcpro\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F99A39C4-12B3-49AA-9751-D183CEC0553E}|MVCPro\\MVCPro.csproj|e:\\full stack route!\\projects\\tourrasm\\tourrasm\\tour\\mvcpro\\views\\touristattraction\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F99A39C4-12B3-49AA-9751-D183CEC0553E}|MVCPro\\MVCPro.csproj|solutionrelative:mvcpro\\views\\touristattraction\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F99A39C4-12B3-49AA-9751-D183CEC0553E}|MVCPro\\MVCPro.csproj|e:\\full stack route!\\projects\\tourrasm\\tourrasm\\tour\\mvcpro\\views\\touristattraction\\add_tourist_attraction.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F99A39C4-12B3-49AA-9751-D183CEC0553E}|MVCPro\\MVCPro.csproj|solutionrelative:mvcpro\\views\\touristattraction\\add_tourist_attraction.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F99A39C4-12B3-49AA-9751-D183CEC0553E}|MVCPro\\MVCPro.csproj|e:\\full stack route!\\projects\\tourrasm\\tourrasm\\tour\\mvcpro\\views\\touristattraction\\view_tourist_attraction.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F99A39C4-12B3-49AA-9751-D183CEC0553E}|MVCPro\\MVCPro.csproj|solutionrelative:mvcpro\\views\\touristattraction\\view_tourist_attraction.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F99A39C4-12B3-49AA-9751-D183CEC0553E}|MVCPro\\MVCPro.csproj|e:\\full stack route!\\projects\\tourrasm\\tourrasm\\tour\\mvcpro\\views\\trip\\createtrip.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F99A39C4-12B3-49AA-9751-D183CEC0553E}|MVCPro\\MVCPro.csproj|solutionrelative:mvcpro\\views\\trip\\createtrip.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F99A39C4-12B3-49AA-9751-D183CEC0553E}|MVCPro\\MVCPro.csproj|e:\\full stack route!\\projects\\tourrasm\\tourrasm\\tour\\mvcpro\\views\\touristattraction\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F99A39C4-12B3-49AA-9751-D183CEC0553E}|MVCPro\\MVCPro.csproj|solutionrelative:mvcpro\\views\\touristattraction\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F99A39C4-12B3-49AA-9751-D183CEC0553E}|MVCPro\\MVCPro.csproj|e:\\full stack route!\\projects\\tourrasm\\tourrasm\\tour\\mvcpro\\views\\trip\\touristsfortrip.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F99A39C4-12B3-49AA-9751-D183CEC0553E}|MVCPro\\MVCPro.csproj|solutionrelative:mvcpro\\views\\trip\\touristsfortrip.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F99A39C4-12B3-49AA-9751-D183CEC0553E}|MVCPro\\MVCPro.csproj|e:\\full stack route!\\projects\\tourrasm\\tourrasm\\tour\\mvcpro\\views\\trip\\displaytrips.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F99A39C4-12B3-49AA-9751-D183CEC0553E}|MVCPro\\MVCPro.csproj|solutionrelative:mvcpro\\views\\trip\\displaytrips.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F99A39C4-12B3-49AA-9751-D183CEC0553E}|MVCPro\\MVCPro.csproj|e:\\full stack route!\\projects\\tourrasm\\tourrasm\\tour\\mvcpro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F99A39C4-12B3-49AA-9751-D183CEC0553E}|MVCPro\\MVCPro.csproj|solutionrelative:mvcpro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F99A39C4-12B3-49AA-9751-D183CEC0553E}|MVCPro\\MVCPro.csproj|e:\\full stack route!\\projects\\tourrasm\\tourrasm\\tour\\mvcpro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F99A39C4-12B3-49AA-9751-D183CEC0553E}|MVCPro\\MVCPro.csproj|solutionrelative:mvcpro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 416,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TouristsForTrip.cshtml",
+              "DocumentMoniker": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\Views\\Trip\\TouristsForTrip.cshtml",
+              "RelativeDocumentMoniker": "MVCPro\\Views\\Trip\\TouristsForTrip.cshtml",
+              "ToolTip": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\Views\\Trip\\TouristsForTrip.cshtml",
+              "RelativeToolTip": "MVCPro\\Views\\Trip\\TouristsForTrip.cshtml",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAADgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-18T16:36:20.861Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MVCPro\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MVCPro\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-20T07:53:17.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\Views\\Trip\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MVCPro\\Views\\Trip\\Delete.cshtml",
+              "ToolTip": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\Views\\Trip\\Delete.cshtml",
+              "RelativeToolTip": "MVCPro\\Views\\Trip\\Delete.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAmwCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-20T07:47:18.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVCPro\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MVCPro\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAANgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-18T18:07:36.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\Views\\Trip\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVCPro\\Views\\Trip\\Index.cshtml",
+              "ToolTip": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\Views\\Trip\\Index.cshtml",
+              "RelativeToolTip": "MVCPro\\Views\\Trip\\Index.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAmwEsAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-18T18:07:22.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ViewTrip.cshtml",
+              "DocumentMoniker": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\Views\\Trip\\ViewTrip.cshtml",
+              "RelativeDocumentMoniker": "MVCPro\\Views\\Trip\\ViewTrip.cshtml",
+              "ToolTip": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\Views\\Trip\\ViewTrip.cshtml",
+              "RelativeToolTip": "MVCPro\\Views\\Trip\\ViewTrip.cshtml",
+              "ViewState": "AQIAACkAAAAAAAAAAAAowDoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-18T17:58:45.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "add_Tourist_attraction.cshtml",
+              "DocumentMoniker": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\Views\\Touristattraction\\add_Tourist_attraction.cshtml",
+              "RelativeDocumentMoniker": "MVCPro\\Views\\Touristattraction\\add_Tourist_attraction.cshtml",
+              "ToolTip": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\Views\\Touristattraction\\add_Tourist_attraction.cshtml",
+              "RelativeToolTip": "MVCPro\\Views\\Touristattraction\\add_Tourist_attraction.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAEUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-18T17:42:09.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "View_Tourist_attraction.cshtml",
+              "DocumentMoniker": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\Views\\Touristattraction\\View_Tourist_attraction.cshtml",
+              "RelativeDocumentMoniker": "MVCPro\\Views\\Touristattraction\\View_Tourist_attraction.cshtml",
+              "ToolTip": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\Views\\Touristattraction\\View_Tourist_attraction.cshtml",
+              "RelativeToolTip": "MVCPro\\Views\\Touristattraction\\View_Tourist_attraction.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-18T17:41:56.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateTrip.cshtml",
+              "DocumentMoniker": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\Views\\Trip\\CreateTrip.cshtml",
+              "RelativeDocumentMoniker": "MVCPro\\Views\\Trip\\CreateTrip.cshtml",
+              "ToolTip": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\Views\\Trip\\CreateTrip.cshtml",
+              "RelativeToolTip": "MVCPro\\Views\\Trip\\CreateTrip.cshtml",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAAAF8AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-18T17:37:55.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\Views\\Touristattraction\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVCPro\\Views\\Touristattraction\\Index.cshtml",
+              "ToolTip": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\Views\\Touristattraction\\Index.cshtml",
+              "RelativeToolTip": "MVCPro\\Views\\Touristattraction\\Index.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAgwC8AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-18T17:28:42.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\Views\\Touristattraction\\Update.cshtml",
+              "RelativeDocumentMoniker": "MVCPro\\Views\\Touristattraction\\Update.cshtml",
+              "ToolTip": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\Views\\Touristattraction\\Update.cshtml",
+              "RelativeToolTip": "MVCPro\\Views\\Touristattraction\\Update.cshtml",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAAAFkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-18T16:54:15.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DisplayTrips.cshtml",
+              "DocumentMoniker": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\Views\\Trip\\DisplayTrips.cshtml",
+              "RelativeDocumentMoniker": "MVCPro\\Views\\Trip\\DisplayTrips.cshtml",
+              "ToolTip": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\Views\\Trip\\DisplayTrips.cshtml",
+              "RelativeToolTip": "MVCPro\\Views\\Trip\\DisplayTrips.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAmwFMAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-18T15:54:00.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "site.css",
+              "DocumentMoniker": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "MVCPro\\wwwroot\\css\\site.css",
+              "ToolTip": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "MVCPro\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAJMBAAAAAAAAAAAmwKcBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-18T15:52:32.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\appsettings.json",
+              "RelativeDocumentMoniker": "MVCPro\\appsettings.json",
+              "ToolTip": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\appsettings.json",
+              "RelativeToolTip": "MVCPro\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-18T15:42:51.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\Program.cs",
+              "RelativeDocumentMoniker": "MVCPro\\Program.cs",
+              "ToolTip": "E:\\Full Stack Route!\\Projects\\Tourrasm\\Tourrasm\\Tour\\MVCPro\\Program.cs",
+              "RelativeToolTip": "MVCPro\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAADgvwgAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T18:33:31.23Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

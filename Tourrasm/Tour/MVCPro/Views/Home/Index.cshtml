@@ -1,0 +1,239 @@
+﻿
+
+@{
+    MVCPro.Shared.global.i = 0;
+    ViewData["Title"] = "Home Page";
+    List<Trip>? trips = (List<Trip>)ViewData["trips"];
+    
+                        <head>
+                        @if (ViewData["currentUser"] != null)
+    {
+        
+                            <style>
+                                .signin, .signup {
+                                    display: none;
+                                }
+                            </style>
+    }
+                        <style>
+
+                                .wholeHeader {
+                                    background-image: url('@Url.Content("~/imags/header1.jpeg")');
+                                    background-size: 100vw 600px;
+                                    background-repeat: no-repeat;
+                                    height: 600px;
+                                }
+
+                                .container
+                                {
+                                    display: contents !important;
+                                    margin: 0 !important;
+                                    padding: 0 !important;
+                                }
+
+                                nav
+                                {
+                                    margin-bottom: 0 !important;
+                                }
+                                .navbar
+                                {
+                                    margin: 0 !important;
+                                }
+                        </style>
+                       </head>
+}
+<section class="wholeHeader">
+    <div class="left" onclick="leftArrow()">
+        <img src="~/imags/left.png"/>
+    </div>
+    <div class="header">
+        <div class="headerText">
+            <p style="font-size: 2vw">
+                TOURS & TRAVEL
+            </p>
+            <h1 style="font-size: 3.5vw">Discover Amazing Places With Us</h1>
+        </div>
+        <button class="headerButton" onclick="location.href='https://localhost:44372/Trip/DisplayTrips'">
+            Book Now
+        </button>
+    </div>
+    <div class="right" onclick="rightArrow()">
+        <img src="~/imags/right.png"/>
+    </div>
+</section>
+
+<script>
+    function rightArrow() {
+        let ele = document.querySelector('.wholeHeader');
+        let style = window.getComputedStyle(ele);
+        let back = style.backgroundImage;
+        let image = back.match(/header#?(\d+)\.jpeg/);
+        let i = image[1];
+        if (i == 3)
+        {
+            i = 1;
+        }
+        else
+        {
+            i++;
+        }
+        const basePath = '@Url.Content("~/imags/header")';
+        const pic = basePath + `${i}.jpeg`;
+        ele.style.backgroundImage = `url('${pic}')`;
+    }
+
+    function leftArrow() {
+        let ele = document.querySelector('.wholeHeader');
+        let style = window.getComputedStyle(ele);
+        let back = style.backgroundImage;
+        let image = back.match(/header#?(\d+)\.jpeg/);
+        let i = image[1];
+        if (i == 1) {
+            i = 3;
+        }
+        else {
+            i--;
+        }
+        const basePath = '@Url.Content("~/imags/header")';
+        const pic = basePath + `${i}.jpeg`;
+        ele.style.backgroundImage = `url('${pic}')`;
+    }
+    
+</script>
+
+<section class="dataUnderHeader">
+    <div class="dataUnderHeaderImg">
+        <img src="~/imags/dataUnderHeaderPic.jpg"/>
+    </div>
+    <div class="dataUnderHeaderText">
+        <p style="color: #7ab730;">ABOUT US</p>
+        <h2>We Provide Best Tour Packages In Your Budget</h2>
+        <p style="color: #858585;">Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd ut. Erat duo eos et erat sed diam duo</p>
+        <button class="dataUnderHeaderButton" onclick="location.href='https://localhost:44372/Trip/DisplayTrips'">
+                Book Now
+            </button>
+    </div>
+</section>
+
+<section class="chaBoxs">
+    <div class="chaBoxChild">
+        <div class="chaBoximg">
+            <img src="~/imags/money.png"/>
+        </div>
+        <div class="chaBoxText">
+            <h4>Competitive Pricing</h4>
+            <p style="color: #858585;">Magna sit magna dolor duo dolor labore rebum amet elitr est diam sea</p>
+        </div>
+    </div>
+    <div class="chaBoxChild">
+        <div class="chaBoximg">
+            <img src="~/imags/technical-support.png"/>
+        </div>
+        <div class="chaBoxText">
+            <h4>Best Services</h4>
+            <p style="color: #858585;">Magna sit magna dolor duo dolor labore rebum amet elitr est diam sea</p>
+        </div>
+    </div>
+    <div class="chaBoxChild">
+        <div class="chaBoximg">
+            <img src="~/imags/world.png"/>
+        </div>
+        <div class="chaBoxText">
+            <h4>Worldwide Coverage</h4>
+            <p style="color: #858585;">Magna sit magna dolor duo dolor labore rebum amet elitr est diam sea</p>
+        </div>
+    </div>
+</section>
+
+<section class="services">
+    <div class="servicesChild">
+        <div class="servicesImg">
+            <img src="~/imags/distance.png"/>
+        </div>
+        <div class="servicesText">
+            <h4>Travel Guide</h4>
+            <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore</p>
+        </div>
+    </div>
+    <div class="servicesChild">
+        <div class="servicesImg">
+            <img src="~/imags/ticket.png"/>
+        </div>
+        <div class="servicesText">
+            <h4>Ticket Booking</h4>
+            <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore</p>
+        </div>
+    </div>
+    <div class="servicesChild">
+        <div class="servicesImg">
+            <img src="~/imags/hotel.png"/>
+        </div>
+        <div class="servicesText">
+            <h4>Hotel Booking</h4>
+            <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore</p>
+        </div>
+    </div>
+</section>
+
+
+<section class="showTripsHome">
+    <h2 style="margin: 30px;">OUR BEST TRIPS!</h2>
+    <div class="tripHome">
+    </div>
+        <button class="showTripsHomeButton" asp-action="DisplayTrips" asp-controller="Trip">
+            Show more...
+        </button>
+</section>
+
+
+<script>
+    function createTripHome(tripId, tripName, price, picture) {
+        // Create the main trip div
+        const newTrip = document.createElement('div');
+        newTrip.id = tripId; // Ensure unique ID by prefixing with 'trip-'
+
+        // Create the image div
+        const tripImg = document.createElement('div');
+        tripImg.className = 'tripImg';
+       
+        const basePath = '@Url.Content("~/images/Trip/")';
+        
+        const pic = basePath + `${picture}`
+        
+        tripImg.style.backgroundImage = `url('${pic}')`;
+        tripImg.style.width = "100px";
+        newTrip.appendChild(tripImg);
+
+        // Create the text div
+        const tripText = document.createElement('div');
+        tripText.className = 'tripText'; // Changed to class instead of ID
+        tripText.innerHTML = `
+                <div>
+                    <h3>${tripName}</h3>
+                    <p>Price: ${price}</p>
+                </div>
+                    <button class="buttonTripHome" onclick="location.href='https://localhost:44372/Trip/ViewTrip/${tripId}'">
+                                    View
+                                    </button>
+            `;
+        newTrip.appendChild(tripText);
+
+        // Append the newTrip div to the container
+        document.querySelector('.tripHome').appendChild(newTrip);
+    }
+</script>
+
+@foreach (var trip in trips) // Ensure Model.Trips is correctly passed to the view
+{
+    if (trip.ImageUser == null)
+    {
+        <script>
+        window.alert("rrr");
+        </script>
+    }
+    <script>
+        createTripHome(@trip.TripId, '@trip.Name', @trip.Price, '@trip.ImageUser');
+    </script>
+}
+
+

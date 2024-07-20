@@ -1,0 +1,133 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    User u = (User)ViewData["currentUser"];
+}
+@{
+    MVCPro.Shared.global.i = 0;
+    var viewName = ViewContext.RouteData.Values["action"].ToString();
+    if (viewName == "Profile")
+    {
+        <head>
+            <style>
+                .container {
+                    margin: 0;
+                    padding: 0;
+                }
+                footer
+                {
+                    margin: 0 !important;
+                }
+                .mb-3 {
+                    margin-bottom: 0rem !important;
+                }
+
+                nav {
+                    margin-bottom: 0 !important;
+                }
+
+                main {
+                    padding: 0 !important;
+                }
+
+                .pb-3 {
+                    padding-bottom: 0rem !important;
+                }
+               
+            </style>
+        </head>
+    }
+}
+@model MVCPro.Models.User
+
+<div class="profile">
+    @if (ViewBag.EmailError != null)
+    {
+        <div class="alert alert-danger">@ViewBag.EmailError</div>
+    }
+    @if (ViewBag.ProfilePictureError != null)
+    {
+        <div class="alert alert-danger">@ViewBag.ProfilePictureError</div>
+    }
+    @if (ViewBag.PasswordError != null)
+    {
+        <div class="alert alert-danger">@ViewBag.PasswordError</div>
+    }
+    @if (ViewBag.NationalityError != null)
+    {
+        <div class="alert alert-danger">@ViewBag.NationalityError</div>
+    }
+    @if (ViewBag.UserNameError != null)
+    {
+        <div class="alert alert-danger">@ViewBag.UserNameError</div>
+    }
+    <form class="proform" asp-controller="User" asp-action="UpdateUser" method="post" enctype="multipart/form-data">
+        <div class="proUpper">
+            <div class="proPhoto">
+                @if (u.ImageUser == null)
+                {
+                    <img src="~/imags/profile.png" alt="Error" />
+                }
+                else
+                {
+                    <img src="~/images/User/@u.ImageUser" alt="Error"  />
+                }
+            </div>
+            <div class="buttonShowTrip">
+                <a class="text-dark" asp-controller="UserTrip" asp-action="Index">My Trips</a>
+            </div>
+        </div>
+        <div class="proLower">
+            <div class="proContent">
+                <div class="proLables">
+                    <label for="username">User Name</label>
+                    <label for="job">Job</label>
+                    <label for="Nationality">Nationality</label>
+                    <label for="BirthDate">Birth Date</label>
+                    <label for="Email">Email</label>
+                    <label for="Password">Password</label>
+                    <label for="Password">Config Password</label>
+                    <label for="ProfilePicture">Add Picture</label>
+                </div>
+                <div class="proInputs">
+
+                    <input type="text" id="username" name="username" placeholder="@u.UserName" />
+                    <span asp-validation-for="UserName" class="text-danger"></span>
+
+                    <input type="text" id="Job" name="Job" placeholder="@u.Job" />
+
+                    <input type="text" id="Nationality" name="Nationality" placeholder="@u.Nationality" />
+                    <span asp-validation-for="Nationality" class="text-danger"></span>
+
+                    <input type="date" id="BirthDate" name="BirthDate" max="2007-01-01" placeholder="@u.BirthDate" />
+                    <span asp-validation-for="BirthDate" class="text-danger"></span>
+
+                    <input type="email" id="Email" name="Email" placeholder="@u.Email" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+
+                    <input type="password" id="Password" name="Password" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+
+@*                     <input type="password" id="Password" name="Password" />
+ *@
+                    <input input type="password" id="ConfirmPassword" name="ConfirmPassword" />
+                    <input type="file" id="ProfilePicture" name="ProfilePicture" />
+                    <span asp-validation-for="ImageUser" class="text-danger"></span>
+                </div>
+            </div>
+            <div asp-validation-summary="ModelOnly"></div>
+            <div class="proButtons">
+                <button type="submit">Update</button>
+                <div> <a class="text-dark" asp-area="" asp-controller="User" asp-action="SignOut">Sign Out</a></div>
+                <div> <a class="text-dark" asp-area="" asp-controller="User" asp-action="DeleteAccount">Remove Account</a></div>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

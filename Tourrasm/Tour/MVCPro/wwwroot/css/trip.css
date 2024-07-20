@@ -1,0 +1,229 @@
+﻿/*Display Trips Style*/
+
+.showTrips {
+    display: flex;
+    justify-content: center;
+    width: 98vw;
+    gap: 50px;
+}
+
+nav
+{
+    margin-bottom: 0 !important;
+}
+
+.searchBox
+{
+    width: 25%;
+    background-color: #c9dbb3;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #7ab730;
+}
+
+.tripBoxall
+{
+    width: 75%;
+    text-align: center;
+}
+
+
+.btn-danger
+{
+    background-color: #7ab730 !important;
+    border-color: #7ab730 !important;
+}
+.tripHomeall {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    flex-wrap: wrap;
+    gap: 30px 3vw;
+}
+
+.tripHomeall > div:hover
+{
+    box-shadow: 5px 3px 10px #858585;
+}
+
+
+.tripHomeall > div
+{
+    width: 30%;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 800px) {
+    .tripHomeall > div
+    {
+        width: 100%;
+    }
+}
+    .tripHomeall div img {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        border: 1px solid transparent;
+        border-radius: 20px;
+    }
+
+    /*index style*/
+
+    .con {
+        display: flex;
+        height: 85vh;
+        background-color: #e7f1df;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .forms {
+        display: flex;
+        gap: 2vw;
+        align-items: center;
+    }
+
+    .formsinput {
+        background-color: #7ab730 !important;
+        border: 1px solid transparent !important;
+    }
+
+
+        .formsinput:hover {
+            background-color: black !important;
+        }
+
+    .searchButton {
+        margin: 20px;
+        background-color: #7ab730 !important;
+        border: 1px solid transparent !important;
+        border-radius: 10px !important;
+    }
+
+    #search {
+        margin-top: 20px
+    }
+
+        #search:hover {
+            background-color: #c8e5a4;
+        }
+
+    .searchButton:hover {
+        background-color: black !important;
+    }
+
+    .search {
+        margin: 20px 2vw;
+    }
+
+    .staffTripAdd, .staffTouristAdd {
+        background-color: #7ab730;
+        padding: 10px 1vw;
+        text-align: center;
+        border: 1px solid transparent;
+        display: flex;
+        width: 20%;
+        text-align: center;
+        height: 10%;
+        border-radius: 20px;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        font-size: 75%;
+    }
+
+        .staffTripAdd:hover, .staffTouristAdd:hover {
+            background-color: black;
+        }
+
+        .staffTripAdd a, .staffTouristAdd a {
+            text-decoration: none;
+            color: azure;
+        }
+
+            .staffTripAdd a:hover, .staffTouristAdd a:hover {
+                text-decoration: none;
+                color: azure;
+            }
+
+    .headerTrip {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 30px;
+    }
+
+    .buttonIndex {
+        color: #7ab730 !important;
+        background-color: azure !important;
+        border-color: azure !important;
+    }
+
+        .buttonIndex:hover {
+            background-color: gray !important;
+            border-color: gray !important;
+        }
+
+
+    /*Tourists*/
+
+    .tourists {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+        .tourists > div {
+            display: flex;
+            margin-bottom: 20px;
+            flex-direction: row;
+            width: 95%;
+            height: 450px;
+        }
+
+            .tourists > div:nth-child(even) {
+                flex-direction: row-reverse;
+            }
+
+            .tourists > div:hover {
+                box-shadow: 5px 3px 10px #858585;
+            }
+
+    .tourImg {
+        width: 50% !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .tourText {
+        display: flex;
+        background-color: #f9fafb;
+        width: 50%;
+        /* height: 350px; */
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+        .tourText h3 {
+            color: #7ab730;
+        }
+
+        .tourText h5, .tourText p {
+            color: dimgray;
+        }
+
+        .tourText div {
+            display: flex;
+            height: 100%;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }

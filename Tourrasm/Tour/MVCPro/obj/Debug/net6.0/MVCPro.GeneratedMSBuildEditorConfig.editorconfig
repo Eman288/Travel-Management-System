@@ -1,0 +1,163 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MVCPro
+build_property.RootNamespace = MVCPro
+build_property.ProjectDir = E:\Full Stack Route!\Projects\Tourrasm\Tourrasm\Tour\MVCPro\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\Full Stack Route!\Projects\Tourrasm\Tourrasm\Tour\MVCPro
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/Home/View.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/Shared/globalVariables.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXGdsb2JhbFZhcmlhYmxlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/Staff/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/Staff/LoginStaff.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcTG9naW5TdGFmZi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/Staff/StaffCreation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcU3RhZmZDcmVhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/Staff/StaffMain.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcU3RhZmZNYWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/Staff/TourGuideMain.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcVG91ckd1aWRlTWFpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/Touristattraction/add_Tourist_attraction.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91cmlzdGF0dHJhY3Rpb25cYWRkX1RvdXJpc3RfYXR0cmFjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/Touristattraction/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91cmlzdGF0dHJhY3Rpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/Touristattraction/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91cmlzdGF0dHJhY3Rpb25cVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/Touristattraction/View_Tourist_attraction.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91cmlzdGF0dHJhY3Rpb25cVmlld19Ub3VyaXN0X2F0dHJhY3Rpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/Trip/AttachToTourist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpcFxBdHRhY2hUb1RvdXJpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/Trip/CreateTrip.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpcFxDcmVhdGVUcmlwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/Trip/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpcFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/Trip/DisplayTrips.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpcFxEaXNwbGF5VHJpcHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/Trip/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpcFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/Trip/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpcFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/Trip/TouristsForTrip.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpcFxUb3VyaXN0c0ZvclRyaXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/Trip/TripStaff.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpcFxUcmlwU3RhZmYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/Trip/ViewTrip.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpcFxWaWV3VHJpcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/UserTrip/BookingDone.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclRyaXBcQm9va2luZ0RvbmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/UserTrip/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclRyaXBcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/UserTrip/DeleteConfirmed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclRyaXBcRGVsZXRlQ29uZmlybWVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/UserTrip/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclRyaXBcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/User/LoginUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpblVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/User/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/User/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/User/select.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxzZWxlY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Full Stack Route\!/Projects/Tourrasm/Tourrasm/Tour/MVCPro/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-luoip07iv7

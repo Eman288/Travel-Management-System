@@ -1,0 +1,60 @@
+﻿
+@model IEnumerable<MVCPro.Models.Staff>
+@{
+    ViewData["Title"] = "Staff Index";
+}
+@{
+    if ((bool)ViewData["deleteStaff"] == true)
+    {
+        <script>
+            window.alert("The data was deleted");
+        </script>
+    }
+    
+}
+<style>
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    fotter
+    {
+        bottom: 0;
+    }
+</style>
+<h2>Trip Index</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Staff ID</th>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var s in Model)
+        {
+            <tr>
+                <td>@s.NationalId</td>
+                <td>@s.Name</td>
+                <td>@s.Type</td>
+                <td>
+                    <a href="@Url.Action("Delete", new {t = s.StaffCode})" class="btn btn-danger">Remove</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@* 
+<form asp-action="Delete" asp-controller="Staff" method="post" class="logform">
+
+    <label for="staffCode">Enter the Staff Code</label>
+
+    <input type="text" id="staffCode" name="staffCode" value="@Model.StaffCode" />
+    <span asp-validation-for="StaffCode" class="text-danger"></span>
+
+    <button type="submit" class="btn btn-primary">Delete</button>
+</form> *@

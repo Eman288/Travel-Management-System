@@ -1,0 +1,38 @@
+﻿@model IEnumerable<MVCPro.Models.Trip>
+@{
+    ViewData["Title"] = "Trip Index";
+}
+
+<h2>Trip Index</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Trip ID</th>
+            <th>Name</th>
+            <th>From Location</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>City</th>
+            <th>Price</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var trip in Model)
+        {
+            <tr>
+                <td>@trip.TripId</td>
+                <td>@trip.Name</td>
+                <td>@trip.FromLocation</td>
+                <td>@trip.StartDate.ToString("yyyy-MM-dd")</td>
+                <td>@trip.EndDate.ToString("yyyy-MM-dd")</td>
+                <td>@trip.City</td>
+                <td>@trip.Price</td>
+                <td>@trip.Description</td>
+                //
+                <td>@trip.BusID</td>
+            </tr>
+        }
+    </tbody>
+</table>

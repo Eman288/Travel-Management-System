@@ -1,0 +1,14 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    TouristAttraction ta = (TouristAttraction)ViewData["currentTouristAttraction"];
+}
+@model MVCPro.Models.TouristAttraction
+<form asp-controller="Touristattraction" asp-action="Update" method="post">
+    <p>@ta.Name</p>
+    <p>@ta.Description</p>
+    <p>@ta.City</p>
+</form>
+<a asp-controller="Touristattraction" asp-action="delete_Tourist_attraction" asp-route-id="@ta.Id" class="btn btn-primary">delete</a>
+<a asp-controller="Touristattraction" asp-action="Update" asp-route-id="@ta.Id" class="btn btn-primary">Update</a>

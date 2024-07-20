@@ -1,0 +1,95 @@
+﻿/*Staff Main Page Design*/
+.staffCon {
+    display: flex;
+    align-items: flex-start;
+}
+
+.staffPic img
+{
+    width: 15vw;
+    height: 15vw;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+
+
+
+.staffOperations {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+
+.staffOperations div {
+        background-color: #ffffff;
+        padding: 10px 1vw;
+        text-align: center;
+        border: 1px solid transparent;
+        display: flex;
+        width: 100%;
+        text-align: center;
+        height: 10%;
+        border-radius: 20px;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        font-size: 75%;
+    }
+
+.staffOperations a {
+        text-decoration: none;
+        color: #7ab730;
+}
+
+.staffOperations div:hover {
+        background-color: black;
+}
+.staffOperations div:hover a {
+        color: azure;
+}
+.staffData {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.labelsStaff, .inputsStaff {
+    display: flex;
+    flex-direction: column;
+}
+
+.labelsStaff label {
+    margin: 22px 5vw;
+    width: max-content;
+}
+
+.inputsStaff input, .inputsStaff p {
+    margin: 20px 3vw;
+    border: 0;
+    border-bottom: 1px solid olive;
+}
+
+
+
+    /*
+.staffUpper {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+    */
+
+/*all*/
+
+

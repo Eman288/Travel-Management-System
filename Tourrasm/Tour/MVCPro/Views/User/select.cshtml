@@ -1,0 +1,77 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    MVCPro.Shared.global.i = 0;
+        <style>
+            main
+            {
+                width: 16vw;
+                margin: 37vh auto;
+            }
+        </style>
+}
+@* <p>hhhhhh</p>
+<form asp-controller="User" asp-action="select" method="post">
+    <select class="form-select" value="@ViewBag.op" name="op" id="opSelect">
+        <option value="select">select positiion</option>
+        <option value="User">User</option>
+        <option value="Stuff">Stuff</option>
+    </select>
+</form>
+<script>
+    document.getElementById('opSelect').addEventListener('change', function() {
+        document.getElementById('selectForm').submit();
+    });
+</script> *@
+
+@* <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Select your position
+    </button>
+    <ul class="dropdown-menu">
+        <li><a class="User" href="https://localhost:44372/User/LoginUser">User</a></li>
+        <li><a class="Staff" href="https://localhost:44372/Staff/LoginStaff">Staff</a></li>
+    </ul>
+</div>
+ *@
+ <head>
+     <style>
+        .mb-3 {
+            margin-bottom: 0 !important;
+        }
+         main
+         {
+            width: 100vw !important;
+            padding: 0 !important;
+            height: 89vh;
+            margin: 0 !important;
+         }
+         body
+         {
+             margin: 0 !important;
+         }
+         footer
+         {
+             display: none;
+         }
+     </style>
+ </head>
+
+<div class="selectDiv">
+    <div class="div1" onclick="user()">
+        <h1>User?</h1>
+    </div>
+    <div class="div2" onclick="staff()">
+        <h1>Staff?</h1>
+    </div>
+</div>
+
+<script>
+    function user() { 
+        window.location.href = "https://localhost:44372/User/LoginUser";
+    }
+    function staff() {
+        window.location.href = "https://localhost:44372/Staff/LoginStaff";
+    }
+</script>

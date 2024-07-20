@@ -1,0 +1,32 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@{
+    var t = (Trip)ViewData["trip"];
+}
+<h1>Book User Trip</h1>
+
+<h3>Are you sure you want to Book this user trip?</h3>
+<div>
+    <h4>User Trip</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Trip Name
+        </dt>
+        <dd class="col-sm-10">
+            @t.Name
+        </dd>
+        <dt class="col-sm-2">
+            Trip Price
+        </dt>
+        <dd class="col-sm-10">
+            @t.Price
+        </dd>
+    </dl>
+
+    <form asp-action="Create" asp-route-uid="@MVCPro.Shared.global.currentUser" asp-route-tid="@t.TripId" method="post">
+         <button>Yes</button>
+    </form>
+</div>

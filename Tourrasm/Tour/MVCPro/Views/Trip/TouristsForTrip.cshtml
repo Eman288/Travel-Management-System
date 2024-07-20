@@ -1,0 +1,76 @@
+﻿@model List<MVCPro.Models.TouristAttraction>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Trips</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            margin: 0 !important;
+        }
+
+        header {
+            filter: opacity(0.5);
+        }
+
+        main, .pb-3 {
+            padding-bottom: 0 !important;
+        }
+        main
+        {
+            height: 90vh;
+        }
+        nav {
+            margin-bottom: 0 !important;
+        }
+
+        .mb-3 {
+            margin-bottom: 0 !important;
+        }
+
+        footer {
+            display: none;
+        }
+
+        header:hover {
+            filter: opacity(1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container" style="padding: 50px">
+        <h2>The Trip's Tourists Attractions</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>City</th>
+                    <th>Description</th>
+                    <th colspan="2">Actions</th> <!-- Added column for actions -->
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var trip in Model)
+                {
+                    <tr>
+                        <td>@trip.Id</td>
+                        <td>@trip.Name</td>
+                        <td>@trip.City</td>
+                        <td>@trip.Description</td>
+                        <td>
+                            <a href="@Url.Action("removeFromTrip", new { id = trip.Id })" class="btn btn-danger">Remove</a>
+                        </td>
+                        <td>
+                            <a href="@Url.Action("EditTouristGo", new { idt = trip.Id })" class="btn btn-danger">Edit</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

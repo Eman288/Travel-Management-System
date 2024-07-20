@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MVCPro</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    @*   <link rel="stylesheet" href="~/css/reg.css" asp-append-version="true" />
+           <link rel="stylesheet" href="~/css/profile.css" asp-append-version="true" />
+    *@ <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/staff.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/trip.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MVCPro.styles.css" asp-append-version="true" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <link rel="icon" href="~/imags/hotel.png" />
+    @{
+        if ((MVCPro.Shared.global.currentUser) != null)
+        {
+            <style>
+                .signin, .signup {
+                    display: none;
+                }
+            </style>
+        }
+        else
+        {
+            <style>
+                .proimg a {
+                    display: none;
+                }
+
+                .proimg img {
+                    display: none;
+                }
+            </style>
+        }
+        if (ViewData["Title"] == "Home Page")
+        {
+            <style>
+                .Index a
+                {
+                    color: #7ab730 !important;
+                }
+            </style>
+        }
+        else if (ViewData["Title"] == "Our Trips")
+        {
+            <style>
+                .trips a {
+                    color: #7ab730 !important;
+                }
+            </style>
+        }
+    }
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Travel</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between navList">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item Index">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                       
+                        <li class="nav-item trips">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Trip" asp-action="DisplayTrips">Our Trips</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="signin">
+                    <a text-dark" asp-area="" asp-controller="User" asp-action="select">Sign In</a>
+                </div>
+                <div class="signup">
+                    <a text-dark" asp-area="" asp-controller="User" asp-action="Register">Sign Up</a>
+                </div>
+            </div>
+            <div class="proimg">
+                <a text-dark" asp-area="" asp-controller="User" asp-action="Profile">
+                    <img src="~/imags/profile.png" />
+                </a>
+            </div>
+        </nav>
+    </header>
+    <div>
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &Created by:
+            <ul>
+                <li>Eman Tamam</li>
+                <li>Arwa Mostafa</li>
+                <li>Ahmed Aziz</li>
+                <li>Yasmeen Khaled</li>
+                <li>Abdalrahman Gabal/li>
+            </ul>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

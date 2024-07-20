@@ -1,0 +1,142 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model MVCPro.Models.Staff
+
+@{
+    var viewName = ViewContext.RouteData.Values["action"].ToString();
+    //var St = (Staff)ViewData["currentStaff"];
+    var St = MVCPro.Shared.global.s;
+    if (MVCPro.Shared.global.currentUser != "00000000000001")
+    {
+        <style>
+            .staffAdd, .staffDel {
+                display: none !important;
+            }
+        </style>
+    }
+    <style>
+        .container {
+            margin: 0;
+            padding: 0;
+        }
+
+        .proContent {
+            align-items: baseline;
+        }
+
+        .mb-3 {
+            margin-bottom: 0rem !important;
+        }
+
+        nav {
+            margin-bottom: 0 !important;
+        }
+
+        main {
+            padding: 0 !important;
+        }
+
+        .pb-3 {
+            padding-bottom: 0rem !important;
+        }
+
+        .proUpper {
+            flex-direction: column-reverse;
+            justify-content: space-evenly;
+            height: 126vh;
+            align-items: center;
+            background-color: #7b9b4f;
+        }
+
+        .proButtons {
+            display: flex;
+            align-items: center;
+        }
+
+            .proButtons button, .proButtons div {
+                background-color: #7b9b4f;
+            }
+
+        .staffOperations a {
+            color: #7b9b4f !important;
+        }
+
+        .inputsStaff input, .inputsStaff p {
+            border-bottom: 1px solid #7b9b4f;
+        }
+    </style>
+}
+
+<div class="staffCon">
+    <div class="proUpper">
+        <div class="staffOperations">
+            <div class="staffAdd">
+                <a text-dark" asp-area="" asp-controller="Staff" asp-action="StaffCreation">Create a Staff/Tour guide</a>
+            </div>
+            <div class="staffDel">
+                <a text-dark" asp-area="" asp-controller="Staff" asp-action="Delete">delete a Staff/Tour guide</a>
+            </div>
+            <div class="staffTourShow">
+                <a text-dark" asp-area="" asp-controller="TouristAttraction" asp-action="Index">Show Tourist Attraction</a>
+            </div>
+            <div class="staffTripShow">
+                <a text-dark" asp-area="" asp-controller="Trip" asp-action="Index">Show Trips Created By Me</a>
+            </div>
+        </div>
+        <div class="staffPic">
+            @if (St.ImageUser == null)
+            {
+                <img src="~/imags/profile.png" alt="Errojr" />
+            }
+            else
+            {
+                <img src="~/images/Staff/@St.ImageUser" alt="Errsor" />
+            }
+           
+        </div>
+    </div>
+    <div class="proLower">
+        <form class="staffData" asp-controller="Staff" asp-action="UpdateStaff" method="post" enctype="multipart/form-data">
+            <div class="proContent">
+                <div class="labelsStaff">
+                    <label for="nationalid">National ID</label>
+                    <label for="name">Name</label>
+                    <label for="email">Email</label>
+                    <label for="birthday">Birthday</label>
+                    <label for="staffCode">Staff Code</label>
+                    <label for="password">Password</label>
+                    <label for="confirmPass">Confirm Password</label>
+                    <label for="ProfilePicture">Add Picture</label>
+                </div>
+                <div class="inputsStaff">
+                    <p>@St.NationalId</p>
+
+                    <input type="text" id="name" name="name" placeholder="@St.Name" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+
+                    <input type="email" id="email" name="email" placeholder="@St.Email" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+
+                    <input type="date" id="birthday" name="birthday" placeholder="@St.Birthday" />
+                    <span asp-validation-for="Birthday" class="text-danger"></span>
+
+                    <input type="text" id="staffCode" name="staffCode" placeholder="@St.StaffCode" />
+                    <span asp-validation-for="StaffCode" class="text-danger"></span>
+
+                    <input type="password" id="password" name="password" placeholder="@St.Password" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+
+                    <input input type="password" id="ConfirmPassword" name="ConfirmPassword" />
+
+                    <input type="file" id="ProfilePicture" name="profilePicture" asp-for="ProfilePicture" />
+                </div>
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            </div>
+            <div class="proButtons">
+                <button type="submit">Update</button>
+                <div> <a text-dark" asp-area="" asp-controller="Staff" asp-action="SignOut">Sign Out</a></div>
+            </div>
+        </form>
+    </div>
+</div>

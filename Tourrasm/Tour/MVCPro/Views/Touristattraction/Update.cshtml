@@ -1,0 +1,90 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    TouristAttraction ta = (TouristAttraction)ViewData["currentTouristAttraction"];
+}
+@model MVCPro.Models.TouristAttraction
+
+<head>
+    <style>
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h2 {
+            color: #7ab730;
+        }
+
+        form {
+            background-color: #8cc744;
+            display: flex;
+            flex-direction: column;
+            align-items: baseline;
+        }
+
+        lable {
+            color: azure;
+        }
+
+        input {
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: azure !important;
+            color: #7ab730 !important;
+            border: 1px solid transparent !important;
+        }
+
+        body {
+            margin: 0 !important;
+        }
+
+        header {
+            filter: opacity(0.5);
+        }
+
+        main, .pb-3 {
+            padding-bottom: 0 !important;
+        }
+
+        nav {
+            margin-bottom: 0 !important;
+        }
+
+        .mb-3 {
+            margin-bottom: 0 !important;
+        }
+
+        footer {
+            display: none;
+        }
+
+        header:hover {
+            filter: opacity(1);
+        }
+    </style>
+</head>
+
+<h2>Tourist Attractions</h2>
+<form asp-controller="Touristattraction" asp-action="Update" method="post" class="att" enctype="multipart/form-data">
+    <label for="Name">Name</label>
+    <input type="text" id="Name" name="Name" value="@Model.Name" required />
+    <span asp-validation-for="Name" class="text-danger"></span>
+
+    <label for="Description">Description</label>
+    <input type="text" id="Description" name="Description" value="@Model.Description" required />
+    <span asp-validation-for="Description" class="text-danger"></span>
+
+    <label for="City">City</label>
+    <input type="text" id="City" name="City" value="@Model.City" />
+    <span asp-validation-for="City" class="text-danger"></span>
+
+    <label for="TouristAttractionPicture">Picture</label>
+    <input type="file" id="TouristAttractionPicture" name="TouristAttractionPicture" value="@Model.TouristAttractionPicture" />
+    <span asp-validation-for="TouristAttractionPicture" class="text-danger"></span>
+    <button type="submit" class="btn btn-primary">Update</button>
+</form> 
