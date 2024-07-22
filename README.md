@@ -29,7 +29,6 @@ Welcome to the Travel Management System! This project is designed to manage and 
 - **Backend:** .NET Core, ASP.NET MVC, Entity Framework
 - **Database:** SQL Server
 - **Authentication:** Identity Framework
-- **APIs:** RESTful APIs for external services
 
 ## Installation
 
