@@ -19,7 +19,7 @@ Welcome to the Travel Management System! This project is designed to manage and 
 - User authentication and authorization
 - Booking and managing travel itineraries
 - Searching and filtering travel options
-- Payment processing
+- Payment Processing
 - Admin panel for managing users and travel options
 - Responsive design for mobile and desktop users
 
